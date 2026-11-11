@@ -1,0 +1,20 @@
+{
+  "skill": "telegram-monitor-bot",
+  "test_cases": [
+    {
+      "name": "continue_mvp_development",
+      "input": "Continue the Telegram monitor bot Python MVP according to the TZ",
+      "assertions": ["References project structure", "Mentions Telethon + aiogram", "Follows sprint priorities"]
+    },
+    {
+      "name": "add_keyword_command",
+      "input": "Implement /add_keyword and /keywords commands",
+      "assertions": ["Uses SQLite storage", "Integrates with bot handlers", "Keeps matching simple for MVP"]
+    },
+    {
+      "name": "java_port_planning",
+      "input": "Plan the Java rewrite for portfolio",
+      "assertions": ["Mentions Spring Boot", "Focuses on architecture over feature copy", "References middle Java portfolio goals"]
+    }
+  ]
+}

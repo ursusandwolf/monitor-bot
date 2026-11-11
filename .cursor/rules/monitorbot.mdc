@@ -1,0 +1,14 @@
+---
+description: MonitorBot project conventions — follow TZ and project skill
+alwaysApply: true
+---
+
+# MonitorBot
+
+- Source of truth: `TZ-telegram-monitor-bot.md` and `.cursor/skills/telegram-monitor-bot/SKILL.md`
+- Stack MVP: Python 3.11+, Telethon (monitor) + aiogram (commands/notify), SQLite
+- Matching MVP: Contains, case-insensitive only until Sprint 2 is stable
+- Secrets only in `.env` (never commit tokens/sessions)
+- Do not over-engineer before Sprint 2 MVP is complete
+- Bot UI language: Russian (per TZ)
+- Keep Telethon user client and aiogram bot separated

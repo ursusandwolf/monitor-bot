@@ -1,0 +1,25 @@
+{
+  "skill": "telegram-monitor-bot",
+  "test_cases": [
+    {
+      "input": "Work on the telegram keyword monitor bot",
+      "should_trigger": true
+    },
+    {
+      "input": "Implement monitor engine for the channel bot",
+      "should_trigger": true
+    },
+    {
+      "input": "How should we structure the Python MVP?",
+      "should_trigger": true
+    },
+    {
+      "input": "Write a random Python script",
+      "should_trigger": false
+    },
+    {
+      "input": "Explain Spring Boot basics",
+      "should_trigger": false
+    }
+  ]
+}
